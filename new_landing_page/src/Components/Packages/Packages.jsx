@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsCheckAll } from 'react-icons/bs';
 import { FiCheck } from 'react-icons/fi';
+import { Button } from '../Button/Button';
 
 export default function Packages() {
   const packages = [
@@ -65,7 +66,9 @@ export default function Packages() {
   ];
   return (
     <>
-      <div className="package_container bg-[#F0F8F8] my-20">
+      <div className="package_container relative  my-20">
+        <div className="package_background absolute top-0 left-0 right-0 bottom-[30%] z-[-1] bg-[#F0F8F8]" />
+
         <section className="package_content pt-[62px] text-center">
           <h2 className="Package_title mb-[24px] font-semibold text-[28px]">
             SEO Content Bundle Packages
@@ -117,14 +120,15 @@ export default function Packages() {
                 </div>
               </div>
               <div>
-                <button className="bg-[#130F26] py-2 px-4 text-white rounded-md text-sm">
-                  Get Packages
-                </button>
+                <Button
+                  buttonText={'Get Packages'}
+                  styles={'bg-[#0F2435]border-[#0F2435] text-white'}
+                />
               </div>
             </div>
           </div>
           <div className="md:flex flex-col w-[40%] min-w-[320px] max-h-40 p-7 ">
-            <h2 className="font-bold text-[24px]">
+            <h2 className="font-bold text-lg md:font-bold text-[24px]">
               Boost Your Website Rankings
             </h2>
             <div className="mt-2 mb-4 font-normal text-[14px] md:text-[20px]">
@@ -141,7 +145,9 @@ export default function Packages() {
                     <div>
                       <BsCheckAll className="text-[#55BDB3] w-[20px] h-[20px]" />
                     </div>
-                    <div className="font-normal text-[16px]">{item.list}</div>
+                    <div className="font-normal text-[14px] md:text-[16px]">
+                      {item.list}
+                    </div>
                   </li>
                 );
               })}

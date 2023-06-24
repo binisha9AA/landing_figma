@@ -1,6 +1,6 @@
 import React from 'react';
 import testtwo from '../../assets/images/Test2.png';
-import Button from '../Button/Button';
+import { Button } from '../Button/Button';
 
 export default function TestomonialTwo() {
   return (
@@ -18,7 +18,16 @@ export default function TestomonialTwo() {
               this amazing discount of 20%.
             </h2>
             <div className="gap-3 flex p-6">
-              <Button />
+              <Button
+                buttonText={'Free Proposal'}
+                styles={'bg-[#0F2435]border-[#0F2435] text-white'}
+              />
+              <Button
+                buttonText={'Chat Now'}
+                styles={
+                  'bg-transparent border-[1px] border-[#0F2435] text-black'
+                }
+              />
             </div>
           </div>
         </div>

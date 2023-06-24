@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiChevronDown } from 'react-icons/fi';
+import side from '../../assets/images/46.png';
 
 export default function Faq() {
   const [openQuestion, setOpenQuestion] = React.useState(null);
@@ -42,7 +43,7 @@ export default function Faq() {
           Need Help? Read FAQs
         </h2>
         <div className="flex gap-10 ">
-          <section className="basis-[30%] bg-[#E9F3FE] leading-[3.5rem] p-[24px] h-[429.48px]">
+          <section className="basis-[30%] bg-[#E9F3FE] leading-10 p-[24px] h-[429.48px] md:leading-[3.5rem] ">
             <h3 className="font-bold text-base md:text-[24px]">
               Table of Content
             </h3>
@@ -92,21 +93,18 @@ export default function Faq() {
                     <h3 className="title__question font-bold mb-[16px]">
                       {item.question}
                     </h3>
-                    <p
+                    <div
                       className={`answer ${
                         openQuestion != item.id && 'hidden'
                       } text-[#888580]`}
                     >
-                      {item.answer}
-                    </p>
+                      <p>{item.answer}</p>
+                    </div>
                   </div>
                   {item.id == openQuestion ? (
-                    <FiChevronDown className="w-7 h-12" />
+                    <FiChevronDown className="w-7 h-12 text-[#55BDB3]" />
                   ) : (
-                    <img
-                      src="../images/46.png"
-                      className="w-6 h-auto flex-shrink-0"
-                    />
+                    <img src={side} className="w-6 h-auto flex-shrink-0" />
                   )}
                 </div>
               );

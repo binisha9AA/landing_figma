@@ -10,21 +10,23 @@ import Packages from '../Packages/Packages';
 import Feedback from '../Feedback/Feedback';
 import Sample from '../Sample/Sample';
 import Faq from '../Faq/Faq';
-
+import HeroSection from '../HeroSection/HeroSection';
 export default function Main() {
   return (
-    <main>
+    <main className="main_content">
+      <HeroSection />
       <Services />
+      <Price />
       <TestominialOne />
       {/* <Reasons /> */}
-      <Price />
+      {/*
       <Status />
       <Process />
       <TestomonialTwo />
       <Packages />
       <Feedback />
       <Sample />
-      <Faq />
+      <Faq /> */}
     </main>
   );
 }

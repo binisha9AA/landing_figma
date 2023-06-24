@@ -1,6 +1,6 @@
 import React from 'react';
 import processimage from '../../assets/images/Process.png';
-import Button from '../Button/Button';
+import { Button } from '../Button/Button';
 
 export default function Process() {
   return (
@@ -34,7 +34,14 @@ export default function Process() {
           </div>
 
           <div className="gap-3 flex flex-col pt-[42px] md:flex-row">
-            <Button />
+            <Button
+              buttonText={'Free Proposal'}
+              styles={'bg-[#0F2435]border-[#0F2435] text-white'}
+            />
+            <Button
+              buttonText={'Chat Now'}
+              styles={'bg-transparent border-[1px] border-[#0F2435]text-black'}
+            />
           </div>
         </section>
         <section className="process_image  static left-[20%] hidden md:flex">

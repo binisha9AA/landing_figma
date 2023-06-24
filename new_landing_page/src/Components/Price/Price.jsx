@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '../Button/Button';
 
 function Price() {
   return (
@@ -71,9 +72,12 @@ function Price() {
               $11.7
             </h2>
             <hr />
-            <button className="bg-[#0F2435] border-2 border-[#0F2435] color text-white py-2 px-4 rounded-[8px]">
-              Order Now
-            </button>
+            <div className="flex justify-center">
+              <Button
+                buttonText={'Order Now'}
+                styles={'w-[165px] bg-[#130F26] text-white'}
+              />
+            </div>
           </section>
         </div>
       </section>
