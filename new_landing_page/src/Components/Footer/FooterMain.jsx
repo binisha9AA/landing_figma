@@ -4,8 +4,8 @@ import Copyright from './Copyright';
 export default function FooterMain() {
   return (
     <section className="footer">
-      <footer className=" flex flex-col ">
-        <div className="footer footer p-10  bg-[#0F2435] text-base-content text-white flex flex-col gap-10 h-max justify-evenly md:flex-row">
+      <footer className="footer p-10  bg-[#0F2435] text-base-content text-white flex flex-col gap-10 h-max justify-evenly md:flex-row ">
+        <div>
           <h2 className="font-bold text-lg">LOGO</h2>
           <p className="w-[280px] py-5">
             A platform was designed to address the immediate need to increase
@@ -121,7 +121,6 @@ export default function FooterMain() {
             <img src="../images/footer-logo.png" className="mt-3" alt="" />
           </div>
         </div>
-        <Copyright />
       </footer>
     </section>
   );
