@@ -6,7 +6,7 @@ export default function Status() {
       <div className="bg-[#F0F8F8]  w-auto my-10">
         <div className="status_container p-10 w-full">
           <section className="status_heading">
-            <h2 className="text-center font-bold text-[28px] pt-[82px]">
+            <h2 className="text-center font-bold text-[28px] pt-5">
               Our Stats
             </h2>
             <div className="text-center pt-5 w-[100%] min-w-[200px] text-[14px] font-medium md:px-[153px]">

@@ -18,15 +18,15 @@ export default function Main() {
       <Services />
       <Price />
       <TestominialOne />
-      {/* <Reasons /> */}
-      {/*
+      <Reasons />
+
       <Status />
       <Process />
       <TestomonialTwo />
       <Packages />
       <Feedback />
       <Sample />
-      <Faq /> */}
+      <Faq />
     </main>
   );
 }
