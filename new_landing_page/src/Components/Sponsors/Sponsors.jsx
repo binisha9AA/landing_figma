@@ -8,7 +8,7 @@ export default function Sponsors() {
   return (
     <>
       <section
-        className="sponsor hidden py-3 min-w-fit bg-white md:flex  px-8 gap-4 items-center rounded-xl shadow-md justify-between absolute bottom-0 mx-auto left-[50%] translate-x-[-50%]
+        className="sponsor hidden py-3  min-w-[600px] bg-white md:flex  px-8 gap-4 items-center rounded-xl shadow-md justify-between absolute bottom-0 mx-auto left-[50%] translate-x-[-50%]
       translate-y-[50%]"
       >
         <h2 className="font-medium text-[#C4C4C4] text-[14px] mr-8">
