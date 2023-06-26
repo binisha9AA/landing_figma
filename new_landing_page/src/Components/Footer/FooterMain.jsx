@@ -100,13 +100,13 @@ export default function FooterMain() {
           <p className="footer-title mb-9 font-bold uppercase text-lg">
             Subscribe Us
           </p>
-          <div className="form-control w-80">
+          <div className="form-control">
             <label className="label">
               <span className="label-text text-[#CCCCCC]">
                 Sign up for our mailing list to get latest updates and offers.
               </span>
             </label>
-            <div className="flex w-80 h-11 mt-5 bg-[#273A49]">
+            <div className="flex h-11 mt-5 bg-[#273A49]">
               <input
                 type="text"
                 placeholder="Email address"

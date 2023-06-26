@@ -92,7 +92,7 @@ export default function Feedback() {
               {feedback.map((item) => (
                 <div
                   key={item.id}
-                  className="top_component flex flex-col w-[310px] shadow-lg rounded-[12px] bg-white justify-between md:w-[512px] p-8 mb-[36px]"
+                  className="top_component flex flex-col w-[310px] shadow-lg rounded-[12px] bg-white justify-between lg:w-[512px] p-8 mb-[36px]"
                 >
                   <section className="profile_component flex justify-between mb-3 ">
                     <div className="flex gap-3">

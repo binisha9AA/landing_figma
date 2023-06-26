@@ -81,8 +81,8 @@ export default function Packages() {
             </p>
           </div>
         </section>
-        <section className="mt-[74px] flex flex-col justify-center md:items-start sm:flex-row items-center ">
-          <div className="bg-white w-[40%] min-w-[320px] max-w-[557px] rounded-2xl px-[24px] py-7 gap-4 flex flex-col md:width[557px]">
+        <section className="mt-[74px] flex flex-col justify-center items-baseline md:items-start sm:flex-row">
+          <div className="bg-white mx-auto w-[40%] min-w-[320px] max-w-[557px] rounded-2xl px-[24px] py-7 gap-4 flex flex-col md:width[557px]">
             <h2 className="font-bold text-[24px] mb-[27px]">Master Package</h2>
             <div className="bg-[#F0F8F8] rounded-xl px-[28px] py-[26px]">
               <div>
@@ -127,7 +127,7 @@ export default function Packages() {
               </div>
             </div>
           </div>
-          <div className="md:flex flex-col w-[40%] min-w-[320px] max-h-40 p-7 ">
+          <div className="md:flex mx-auto flex-col w-[40%] min-w-[320px] max-h-40 p-7 ">
             <h2 className="font-bold text-lg md:font-bold text-[24px]">
               Boost Your Website Rankings
             </h2>

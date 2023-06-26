@@ -48,7 +48,7 @@ const Sample = () => {
       <div className="w-full">
         <div className="flex flex-wrap w-full">
           <div className="bg-[#F0F8F8] w-full flex flex-wrap mt-28 mb-[132px] md:px-28 py-9">
-            <div className="max-w-[1400px] flex flex-col justify-around items-center flex-wrap md:flex-row gap-4 mx-auto">
+            <div className="max-w-[1400px] flex flex-col justify-between items-center flex-wrap md:flex-row gap-4 mx-auto">
               <div className="flex flex-col text-center md:text-left w-[48%] min-w-[300px] mr-4 ">
                 <h2 className="font-semibold mb-[21.87px] text-[28px] mx-auto">
                   Our Samples
