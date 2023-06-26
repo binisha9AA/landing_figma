@@ -1,10 +1,10 @@
 import React from 'react';
-import Copyright from './Copyright';
+import phone from '../../assets/images/phone.png';
 
 export default function FooterMain() {
   return (
     <section className="footer">
-      <footer className="footer p-10  bg-[#0F2435] text-base-content text-white flex flex-col gap-10 h-max justify-evenly md:flex-row ">
+      <div className="footer p-10  bg-[#0F2435] text-base-content text-white flex flex-col gap-10 h-max justify-evenly md:flex-row ">
         <div>
           <h2 className="font-bold text-lg">LOGO</h2>
           <p className="w-[280px] py-5">
@@ -15,7 +15,7 @@ export default function FooterMain() {
           <div className="flex flex-col">
             <p className="my-4">info@projexive.com</p>
             <p className="flex">
-              <img src="../images/phone.png" alt="" />
+              <img src={phone} alt="" />
               +1-202-555-0112
             </p>
             <p className=" max-w-[165px] mt-5">
@@ -121,7 +121,7 @@ export default function FooterMain() {
             <img src="../images/footer-logo.png" className="mt-3" alt="" />
           </div>
         </div>
-      </footer>
+      </div>
     </section>
   );
 }

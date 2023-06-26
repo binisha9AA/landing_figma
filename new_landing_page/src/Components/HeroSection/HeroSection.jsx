@@ -6,14 +6,14 @@ import Sponsors from '../Sponsors/Sponsors';
 export default function HeroSection() {
   return (
     <>
-      <section className="slogan bg-[#F0F8F8] min-h-[90vh] relative flex items-center ">
-        <div className="flex flex-col justify-around w-full item-center mx-auto px-3 text-center md:flex-row md:text-left md:px-0 ">
+      <section className="slogan bg-[#F0F8F8] relative flex items-center ">
+        <div className="hero flex flex-col justify-around w-full item-center mx-auto px-3 text-center md:flex-row md:text-left md:px-0 ">
           <section>
-            <div className="leading-[50px] font-bold text-[40px]">
-              <h1 className="text-[#55BDB3] uppercase">we provide</h1>
-              <h1 className="text-[#0F2435]  font-bold ">ACTION-PROVOKING</h1>
+            <div className="text-2xl  md:font-semibold md:text-[40px] leading-[50px]">
+              <h1 className=" text-[#55BDB3] uppercase  ">we provide</h1>
+              <h1 className=" text-[#0F2435]  font-bold  ">ACTION-PROVOKING</h1>
             </div>
-            <h2 className="text-[28px] font-normal  leading-[35.28px] uppercase  mb-[23px]">
+            <h2 className="font-normal  leading-[35.28px] uppercase  mb-[23px] md:text-[28px]">
               to help you grow gradually
             </h2>
             <div className=" max-w-[446px] mx-auto mb-[85px] text-[14px] font-normal md:text-left ">

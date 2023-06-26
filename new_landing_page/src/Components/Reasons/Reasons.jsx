@@ -62,6 +62,12 @@ const reasons = [
     title: 'Money Back Guarantee',
     background: '[#FEF8E6]',
   },
+  {
+    id: 9,
+    image: staricon,
+    title: 'Money Back Guarantee',
+    background: '[#FEF8E6]',
+  },
 ];
 
 export default function Reasons() {

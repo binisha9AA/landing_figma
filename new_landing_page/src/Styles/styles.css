@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+  .ss {
+    background-color: white;
+    text-align: center;
+    z-index: 1;
+  }
+  .login {
+    color: white;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1090px) {
+  .buttons {
+    padding-right: 0;
+  }
+  .h-group {
+    padding-inline: 35px;
+  }
+  .hero {
+    padding-inline: 30px;
+  }
+}
