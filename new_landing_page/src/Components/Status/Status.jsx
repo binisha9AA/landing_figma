@@ -17,7 +17,7 @@ export default function Status() {
               </p>
             </div>
           </section>
-          <section className='"dotted_lines border-dashed border-[0.5px] border-black md:mx-[20rem] my-[49px] '></section>
+          <section className='"dotted_lines border-dashed border-[1px] border-[#d2d9d9] md:mx-[20rem] my-[49px] '></section>
           <div className="flex justify-center">
             <div className="grid grid-cols-2  md:grid-cols-4 gap-[93px] ">
               <div>
