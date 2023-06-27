@@ -44,7 +44,7 @@ export default function Process() {
             />
           </div>
         </section>
-        <section className="process_image  static left-[20%] hidden md:flex">
+        <section className="process_image  static hidden md:flex">
           <img src={processimage} />
         </section>
       </div>
