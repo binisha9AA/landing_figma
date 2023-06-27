@@ -12,7 +12,7 @@ export default function TestomonialTwo() {
         ></div>
         <div className="relative z-10 h-full flex  items-center">
           <div className="bg-white px-2 py-4 my-[50px] rounded-[12px]  min-w[310px] w-[461px] mx-8 md:p-7 md:h-[226px]">
-            <h2 className="font-bold px-5 text-[18px] md:text-xl">
+            <h2 className="font-medium px-5 text-[18px] md:text-xl">
               Get your content needs catered and
               <span className="text-[#55BDB3]"> boost your business</span> with
               this amazing discount of 20%.

@@ -41,7 +41,6 @@ const Sample = () => {
       description: 'Sample | 5074 Words',
     },
   ];
-  const displayedData = divContent.slice(0, 2);
 
   return (
     <section className="my-10 w-full mx-auto ">

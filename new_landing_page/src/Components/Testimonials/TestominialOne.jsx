@@ -12,7 +12,7 @@ export default function TestominialOne() {
         ></div>
         <div className="relative z-10 h-full flex  items-center ">
           <div className="bg-white px-2 rounded-[12px] py-4 my-[50px]  min-w[310px] w-[461px] mx-8 md:p-7 md:h-[226px]">
-            <h3 className="font-bold px-5 text-base mb-5 md:text-xl text-[18px] max-w">
+            <h3 className="font-medium px-5 text-base mb-5 md:text-xl text-[18px] max-w">
               Get your content needs catered and
               <span className="text-[#55BDB3]"> boost your business</span> with
               this amazing discount of 20%.
