@@ -114,7 +114,9 @@ export default function Feedback() {
                     </section>
                   </section>
 
-                  <section>{item.description}</section>
+                  <section className="text-[14px] md:text-[16px]">
+                    {item.description}
+                  </section>
                   <section className=" underline text-[#55BDB3] mt-[27px] font-bold text-[14px]">
                     {item.link}
                   </section>

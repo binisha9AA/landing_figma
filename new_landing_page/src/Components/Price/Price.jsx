@@ -68,10 +68,10 @@ function Price() {
           </div>
 
           <section className="prices_right flex flex-col justify-around basis-[30%] ">
-            <h2 className="text-[#55BDB3] font-bold text-[55px] text-center md:gap-[8px]">
+            <h2 className="text-[#55BDB3] text-[40px] font-bold md:text-[55px] text-center md:gap-[8px]">
               $11.7
             </h2>
-            <hr />
+            <hr className="hidden md:flex" />
             <div className="flex justify-center">
               <Button
                 buttonText={'Order Now'}

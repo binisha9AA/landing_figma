@@ -19,7 +19,6 @@ export default function Main() {
       <Price />
       <TestominialOne />
       <Reasons />
-
       <Status />
       <Process />
       <TestomonialTwo />

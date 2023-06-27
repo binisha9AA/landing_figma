@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <>
       <section className="slogan bg-[#F0F8F8] relative flex items-center ">
-        <div className="hero flex flex-col justify-around w-full item-center mx-auto px-3 text-center md:flex-row md:text-left md:px-0 ">
+        <div className="hero flex flex-col min-h-[60vh] justify-around w-full item-center mx-auto px-3 text-center md:flex-row md:text-left md:px-0 ">
           <section>
             <div className="text-2xl  md:font-semibold md:text-[40px] md:leading-[50px]">
               <h1 className=" text-[#55BDB3] uppercase  ">we provide</h1>
