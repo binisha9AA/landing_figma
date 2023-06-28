@@ -1,9 +1,9 @@
-import React from 'react';
 import { FiChevronDown } from 'react-icons/fi';
 import side from '../../assets/images/46.png';
+import { useState } from 'react';
 
 export default function Faq() {
-  const [openQuestion, setOpenQuestion] = React.useState(null);
+  const [openQuestionId, setOpenQuestionId] = useState(null);
   const faq = [
     {
       id: 0,
@@ -84,9 +84,9 @@ export default function Faq() {
                   key={item.id}
                   className="question-answer__accordion flex justify-between items-center gap-5 p-[15px] shadow-sm shadow-[#DEDEDE] rounded-lg mb-[24px]"
                   onClick={() =>
-                    item.id == openQuestion
-                      ? setOpenQuestion(null)
-                      : setOpenQuestion(item.id)
+                    item.id === openQuestionId
+                      ? setOpenQuestionId(null)
+                      : setOpenQuestionId(item.id)
                   }
                 >
                   <div className="question">
@@ -95,13 +95,13 @@ export default function Faq() {
                     </h3>
                     <div
                       className={`answer ${
-                        openQuestion != item.id && 'hidden'
+                        openQuestionId != item.id && 'hidden'
                       } text-[#888580]`}
                     >
                       <p>{item.answer}</p>
                     </div>
                   </div>
-                  {item.id == openQuestion ? (
+                  {item.id == openQuestionId ? (
                     <FiChevronDown className="w-7 h-12 text-[#55BDB3]" />
                   ) : (
                     <img src={side} className="w-6 h-auto flex-shrink-0" />

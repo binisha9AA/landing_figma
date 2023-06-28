@@ -29,7 +29,6 @@ export default function Navigation() {
       </div>
 
       <ul className="ss sm:bg-white whitespace-nowrap sm:text-center sm:z-10 md:flex md:items-center z-[-1] md:z-auto md:static absolute md:bg-white md:text-black w-full left-0 md:w-auto md:py-0 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-        {/* <ul className="text-gray-950 md:flex md:items-center z-[-1] md:z-auto text-[14px] font-medium  w-full left-0 md:w-auto md:py-0 md:pl-0 pl-7 md:opacity-100 opacity-0 transition-all ease-in duration-500"> */}
         <li className="mx-4 my-6 md:my-0">
           <a
             href="#"
